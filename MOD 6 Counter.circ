@@ -109,11 +109,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(320,450)" to="(520,450)"/>
     <wire from="(450,500)" to="(520,500)"/>
     <wire from="(540,200)" to="(550,200)"/>
-    <comp lib="4" loc="(330,200)" name="T Flip-Flop"/>
-    <comp lib="1" loc="(390,310)" name="NOT Gate">
+    <comp lib="1" loc="(520,420)" name="AND Gate">
       <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
     </comp>
-    <comp lib="0" loc="(240,220)" name="Pin"/>
     <comp lib="1" loc="(660,210)" name="AND Gate">
       <a name="inputs" val="2"/>
     </comp>
@@ -123,9 +122,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="4" loc="(540,200)" name="T Flip-Flop"/>
     <comp lib="0" loc="(240,150)" name="Clock"/>
-    <comp lib="1" loc="(520,420)" name="AND Gate">
+    <comp lib="4" loc="(330,200)" name="T Flip-Flop"/>
+    <comp lib="1" loc="(390,310)" name="NOT Gate">
       <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(240,220)" name="Pin"/>
+    <comp lib="6" loc="(449,120)" name="Text">
+      <a name="text" val="MOD 6 COUNTER"/>
+      <a name="font" val="SansSerif bold 16"/>
     </comp>
   </circuit>
 </project>

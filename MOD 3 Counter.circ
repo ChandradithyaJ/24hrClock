@@ -66,42 +66,46 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(340,300)" to="(340,560)"/>
-    <wire from="(410,300)" to="(470,300)"/>
-    <wire from="(410,320)" to="(470,320)"/>
-    <wire from="(450,390)" to="(500,390)"/>
-    <wire from="(580,300)" to="(580,560)"/>
-    <wire from="(410,300)" to="(410,320)"/>
-    <wire from="(430,540)" to="(430,560)"/>
-    <wire from="(470,540)" to="(470,560)"/>
-    <wire from="(470,560)" to="(580,560)"/>
-    <wire from="(240,300)" to="(240,320)"/>
-    <wire from="(210,360)" to="(250,360)"/>
-    <wire from="(240,300)" to="(270,300)"/>
-    <wire from="(240,320)" to="(270,320)"/>
-    <wire from="(340,560)" to="(430,560)"/>
-    <wire from="(450,390)" to="(450,490)"/>
-    <wire from="(310,300)" to="(340,300)"/>
-    <wire from="(450,310)" to="(470,310)"/>
-    <wire from="(300,390)" to="(450,390)"/>
-    <wire from="(250,310)" to="(270,310)"/>
-    <wire from="(250,310)" to="(250,360)"/>
-    <wire from="(450,310)" to="(450,360)"/>
-    <wire from="(230,320)" to="(240,320)"/>
-    <wire from="(300,330)" to="(300,390)"/>
-    <wire from="(500,330)" to="(500,390)"/>
-    <wire from="(250,360)" to="(450,360)"/>
-    <wire from="(510,300)" to="(580,300)"/>
-    <wire from="(340,300)" to="(410,300)"/>
-    <comp lib="0" loc="(210,360)" name="Clock"/>
-    <comp lib="4" loc="(510,300)" name="J-K Flip-Flop"/>
-    <comp lib="4" loc="(310,300)" name="J-K Flip-Flop"/>
-    <comp lib="0" loc="(230,320)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(450,490)" name="AND Gate">
+    <wire from="(340,290)" to="(340,550)"/>
+    <wire from="(410,290)" to="(470,290)"/>
+    <wire from="(410,310)" to="(470,310)"/>
+    <wire from="(450,380)" to="(500,380)"/>
+    <wire from="(580,290)" to="(580,550)"/>
+    <wire from="(410,290)" to="(410,310)"/>
+    <wire from="(430,530)" to="(430,550)"/>
+    <wire from="(470,530)" to="(470,550)"/>
+    <wire from="(470,550)" to="(580,550)"/>
+    <wire from="(240,290)" to="(240,310)"/>
+    <wire from="(210,350)" to="(250,350)"/>
+    <wire from="(240,290)" to="(270,290)"/>
+    <wire from="(240,310)" to="(270,310)"/>
+    <wire from="(450,380)" to="(450,480)"/>
+    <wire from="(340,550)" to="(430,550)"/>
+    <wire from="(310,290)" to="(340,290)"/>
+    <wire from="(450,300)" to="(470,300)"/>
+    <wire from="(300,380)" to="(450,380)"/>
+    <wire from="(250,300)" to="(270,300)"/>
+    <wire from="(250,300)" to="(250,350)"/>
+    <wire from="(450,300)" to="(450,350)"/>
+    <wire from="(230,310)" to="(240,310)"/>
+    <wire from="(300,320)" to="(300,380)"/>
+    <wire from="(500,320)" to="(500,380)"/>
+    <wire from="(250,350)" to="(450,350)"/>
+    <wire from="(510,290)" to="(580,290)"/>
+    <wire from="(340,290)" to="(410,290)"/>
+    <comp lib="4" loc="(310,290)" name="J-K Flip-Flop"/>
+    <comp lib="1" loc="(450,480)" name="AND Gate">
       <a name="facing" val="north"/>
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(230,310)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(210,350)" name="Clock"/>
+    <comp lib="4" loc="(510,290)" name="J-K Flip-Flop"/>
+    <comp lib="6" loc="(410,220)" name="Text">
+      <a name="text" val="MOD 3 COUNTER"/>
+      <a name="font" val="SansSerif bold 16"/>
     </comp>
   </circuit>
 </project>

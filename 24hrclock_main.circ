@@ -1836,143 +1836,28 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(880,2030)" to="(880,2080)"/>
     <wire from="(730,400)" to="(740,400)"/>
     <wire from="(1120,460)" to="(1140,460)"/>
-    <comp lib="1" loc="(1660,1780)" name="AND Gate">
+    <comp lib="1" loc="(1820,1930)" name="NOT Gate"/>
+    <comp lib="6" loc="(4450,312)" name="Text">
+      <a name="text" val="a2"/>
+    </comp>
+    <comp lib="1" loc="(5170,270)" name="NOT Gate"/>
+    <comp lib="1" loc="(5270,530)" name="AND Gate">
+      <a name="facing" val="south"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(2160,2450)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="hours_units_c"/>
-      <a name="labelloc" val="east"/>
+    <comp lib="6" loc="(2259,85)" name="Text">
+      <a name="text" val="MOD 10 Counter"/>
     </comp>
-    <comp lib="1" loc="(780,350)" name="NOT Gate"/>
-    <comp lib="6" loc="(4714,1298)" name="Text">
-      <a name="text" val="a0 ~a0 a1 ~a1 a2 ~a2 a3 ~a3"/>
-    </comp>
-    <comp lib="4" loc="(1640,180)" name="D Flip-Flop">
+    <comp lib="4" loc="(1730,1800)" name="D Flip-Flop">
       <a name="trigger" val="falling"/>
-    </comp>
-    <comp lib="0" loc="(270,1750)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="alwaysMake1_hours_tens"/>
-    </comp>
-    <comp lib="1" loc="(1990,160)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1350,2280)" name="NOT Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(5960,530)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1680,660)" name="NOT Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="4" loc="(1780,180)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
-    <comp lib="4" loc="(1310,1800)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
-    <comp lib="1" loc="(2540,470)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(5500,530)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(5170,410)" name="NOT Gate"/>
-    <comp lib="1" loc="(4850,790)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(3480,530)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(4950,970)" name="OR Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(1850,2440)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="label" val="hours_units_d"/>
-    </comp>
-    <comp lib="0" loc="(1110,210)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="changeMinutes"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="6" loc="(2682,1936)" name="Text">
-      <a name="text" val="~a1"/>
-    </comp>
-    <comp lib="1" loc="(3770,640)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(4455,378)" name="Text">
-      <a name="text" val="~a1"/>
-    </comp>
-    <comp lib="1" loc="(2150,2090)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(1200,440)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(100,270)" name="Pin">
-      <a name="label" val="alwaysMake1_minutes_tens"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="1" loc="(520,1740)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(3800,410)" name="NOT Gate"/>
-    <comp lib="1" loc="(5210,530)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(1520,1780)" name="AND Gate">
-      <a name="inputs" val="2"/>
     </comp>
     <comp lib="1" loc="(1400,700)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="0" loc="(3690,660)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="label" val="seconds_tens_a"/>
-    </comp>
-    <comp lib="0" loc="(860,1890)" name="Pin">
+    <comp lib="1" loc="(2540,470)" name="AND Gate">
       <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="hours_tens_make1"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(880,2080)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="label" val="hours_tens_e"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(1710,670)" name="NOT Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(2150,210)" name="NOT Gate"/>
-    <comp lib="0" loc="(4510,280)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="alwaysMake1_seconds_units"/>
-    </comp>
-    <comp lib="6" loc="(5279,145)" name="Text">
-      <a name="text" val="MOD 10 Counter"/>
-    </comp>
-    <comp lib="1" loc="(760,1560)" name="OR Gate">
-      <a name="facing" val="west"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(1444,296)" name="Text">
-      <a name="text" val="a1"/>
+      <a name="inputs" val="3"/>
     </comp>
     <comp lib="0" loc="(5510,890)" name="Pin">
       <a name="facing" val="west"/>
@@ -1980,87 +1865,210 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="seconds_units_c"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(5170,370)" name="NOT Gate"/>
-    <comp lib="1" loc="(5900,530)" name="AND Gate">
+    <comp lib="1" loc="(3910,500)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="4" loc="(5080,240)" name="D Flip-Flop">
+    <comp lib="6" loc="(283,161)" name="Text">
+      <a name="text" val="MOD 6 Counter"/>
+    </comp>
+    <comp lib="4" loc="(3730,310)" name="D Flip-Flop">
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="1" loc="(1820,1970)" name="NOT Gate"/>
-    <comp lib="0" loc="(2480,760)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="minutes_units_a"/>
-      <a name="labelloc" val="east"/>
+    <comp lib="1" loc="(3480,530)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
     </comp>
-    <comp lib="1" loc="(4470,200)" name="OR Gate">
+    <comp lib="1" loc="(4200,160)" name="AND Gate">
+      <a name="facing" val="west"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(4448,394)" name="Text">
+      <a name="text" val="a0"/>
+    </comp>
+    <comp lib="1" loc="(810,420)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(220,1700)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
+    <comp lib="6" loc="(6032,376)" name="Text">
+      <a name="text" val="~a1"/>
     </comp>
     <comp lib="1" loc="(5290,650)" name="OR Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="4"/>
     </comp>
-    <comp lib="4" loc="(3290,310)" name="D Flip-Flop">
+    <comp lib="4" loc="(4800,240)" name="D Flip-Flop">
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="1" loc="(4850,970)" name="AND Gate">
+    <comp lib="1" loc="(1930,910)" name="OR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(1490,220)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="alwaysMake1_minutes_units"/>
+    </comp>
+    <comp lib="1" loc="(4680,650)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(1120,1990)" name="AND Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="6" loc="(1704,1238)" name="Text">
-      <a name="text" val="a0 ~a0 a1 ~a1 a2 ~a2 a3 ~a3"/>
+    <comp lib="1" loc="(1990,160)" name="AND Gate">
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(820,2080)" name="Pin">
+    <comp lib="1" loc="(2230,1630)" name="AND Gate">
       <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="label" val="hours_tens_d"/>
+      <a name="inputs" val="4"/>
     </comp>
-    <comp lib="1" loc="(1940,2210)" name="OR Gate">
+    <comp lib="1" loc="(2420,470)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(3770,520)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(5170,370)" name="NOT Gate"/>
+    <comp lib="6" loc="(1449,319)" name="Text">
+      <a name="text" val="~a1"/>
+    </comp>
+    <comp lib="1" loc="(2450,570)" name="OR Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="4"/>
     </comp>
-    <comp lib="1" loc="(5270,530)" name="AND Gate">
+    <comp lib="0" loc="(4350,670)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="seconds_tens_e"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="1" loc="(1360,150)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(1410,2320)" name="NOT Gate">
-      <a name="facing" val="south"/>
+    <comp lib="6" loc="(1020,34)" name="Text">
+      <a name="text" val="MINUTES"/>
+      <a name="font" val="SansSerif bold 18"/>
     </comp>
-    <comp lib="4" loc="(4660,240)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
-    <comp lib="1" loc="(2610,2090)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(1448,358)" name="Text">
-      <a name="text" val="~a0"/>
-    </comp>
-    <comp lib="6" loc="(2687,1841)" name="Text">
-      <a name="text" val="~a3"/>
-    </comp>
-    <comp lib="1" loc="(2350,2090)" name="AND Gate">
+    <comp lib="1" loc="(1280,520)" name="OR Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="1" loc="(3620,320)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1590,1720)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(2684,1959)" name="Text">
-      <a name="text" val="a0"/>
-    </comp>
-    <comp lib="1" loc="(1120,440)" name="AND Gate">
+    <comp lib="1" loc="(4070,500)" name="OR Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2880,470)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(3800,410)" name="NOT Gate"/>
+    <comp lib="0" loc="(2290,950)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="minutes_units_e"/>
+    </comp>
+    <comp lib="0" loc="(860,1890)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="hours_tens_make1"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="1" loc="(460,470)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(3230,170)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(5170,410)" name="NOT Gate"/>
+    <comp lib="0" loc="(1110,210)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="changeMinutes"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="6" loc="(4450,355)" name="Text">
+      <a name="text" val="a1"/>
+    </comp>
+    <comp lib="1" loc="(750,460)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(3448,146)" name="Text">
+      <a name="text" val="MOD 6 Counter"/>
+    </comp>
+    <comp lib="1" loc="(1260,440)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(900,700)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="minutes_tens_f"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="1" loc="(2390,2190)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="0" loc="(2160,2420)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="hours_units_a"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(1320,440)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1920,2090)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(5279,145)" name="Text">
+      <a name="text" val="MOD 10 Counter"/>
+    </comp>
+    <comp lib="0" loc="(3900,730)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="seconds_tens_f"/>
+    </comp>
+    <comp lib="6" loc="(2683,1915)" name="Text">
+      <a name="text" val="a1"/>
+    </comp>
+    <comp lib="6" loc="(1444,277)" name="Text">
+      <a name="text" val="~a2"/>
+    </comp>
+    <comp lib="1" loc="(720,1790)" name="NOT Gate"/>
+    <comp lib="1" loc="(130,250)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1780,180)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="1" loc="(1520,1780)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1830,910)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(3430,220)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(590,1730)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="0" loc="(960,1900)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="hours_tens_a"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(3120,330)" name="Pin">
+      <a name="label" val="alwaysMake1_seconds_tens"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1740,700)" name="NOT Gate">
+      <a name="facing" val="south"/>
     </comp>
     <comp lib="0" loc="(1080,480)" name="Pin">
       <a name="facing" val="west"/>
@@ -2068,29 +2076,199 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="minutes_tens_c"/>
       <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="4" loc="(3500,310)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
-    <comp lib="1" loc="(2070,110)" name="XOR Gate">
+    <comp lib="1" loc="(1500,2470)" name="AND Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="6" loc="(3017,221)" name="Text">
-      <a name="text" val="~a3"/>
+    <comp lib="1" loc="(810,1890)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(5930,630)" name="OR Gate">
+    <comp lib="6" loc="(6035,298)" name="Text">
+      <a name="text" val="a2"/>
+    </comp>
+    <comp lib="1" loc="(4850,1230)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(2550,2090)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1850,160)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(1364,2858)" name="Text">
+      <a name="text" val="a0 ~a0 a1 ~a1 a2 ~a2 a3 ~a3"/>
+    </comp>
+    <comp lib="1" loc="(4730,730)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(190,320)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2430,120)" name="AND Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(4470,200)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(660,600)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="minutes_tens_a"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="4" loc="(1310,1800)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="1" loc="(4840,540)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(220,1700)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="6" loc="(946,1795)" name="Text">
+      <a name="text" val="~a0"/>
+    </comp>
+    <comp lib="1" loc="(3210,380)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(5510,1000)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="seconds_units_d"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(4316,84)" name="Text">
+      <a name="text" val="SECONDS"/>
+      <a name="font" val="SansSerif bold 18"/>
+    </comp>
+    <comp lib="0" loc="(1060,1750)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="changeHours"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="1" loc="(3670,220)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(5740,630)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(1920,100)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(5090,170)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(4340,500)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(2290,870)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="minutes_units_d"/>
+    </comp>
+    <comp lib="1" loc="(2940,470)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(3690,660)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="seconds_tens_a"/>
+    </comp>
+    <comp lib="1" loc="(1860,2090)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(2350,2090)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(4850,910)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1850,2440)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="hours_units_d"/>
+    </comp>
+    <comp lib="1" loc="(940,150)" name="AND Gate">
+      <a name="facing" val="west"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2100,1630)" name="AND Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(5470,630)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(1590,2380)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(5960,530)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(1444,296)" name="Text">
+      <a name="text" val="a1"/>
+    </comp>
+    <comp lib="6" loc="(2682,1936)" name="Text">
+      <a name="text" val="~a1"/>
     </comp>
     <comp lib="1" loc="(4140,500)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(1500,2530)" name="AND Gate">
-      <a name="inputs" val="2"/>
+    <comp lib="0" loc="(2160,2360)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="hours_units_g"/>
+      <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(4070,500)" name="OR Gate">
+    <comp lib="1" loc="(2680,470)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="6" loc="(6033,355)" name="Text">
+      <a name="text" val="a1"/>
+    </comp>
+    <comp lib="6" loc="(1444,253)" name="Text">
+      <a name="text" val="a2"/>
+    </comp>
+    <comp lib="0" loc="(4510,280)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="alwaysMake1_seconds_units"/>
+    </comp>
+    <comp lib="1" loc="(5640,530)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="6" loc="(1704,1238)" name="Text">
+      <a name="text" val="a0 ~a0 a1 ~a1 a2 ~a2 a3 ~a3"/>
+    </comp>
+    <comp lib="6" loc="(1448,358)" name="Text">
+      <a name="text" val="~a0"/>
+    </comp>
+    <comp lib="6" loc="(6033,315)" name="Text">
+      <a name="text" val="~a2"/>
+    </comp>
+    <comp lib="0" loc="(4450,110)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="changeSeconds"/>
+    </comp>
+    <comp lib="1" loc="(3830,480)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1200,440)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
     </comp>
     <comp lib="0" loc="(5510,860)" name="Pin">
       <a name="facing" val="west"/>
@@ -2098,97 +2276,355 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="seconds_units_a"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(5450,70)" name="AND Gate">
+    <comp lib="0" loc="(2480,860)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="minutes_units_g"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(3013,255)" name="Text">
+      <a name="text" val="~a2"/>
+    </comp>
+    <comp lib="1" loc="(600,260)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(530,1920)" name="AND Gate">
       <a name="facing" val="north"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="6" loc="(6042,254)" name="Text">
-      <a name="text" val="a3"/>
-    </comp>
-    <comp lib="1" loc="(3230,170)" name="AND Gate">
-      <a name="facing" val="south"/>
+    <comp lib="1" loc="(2150,250)" name="NOT Gate"/>
+    <comp lib="1" loc="(760,1560)" name="OR Gate">
+      <a name="facing" val="west"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(5470,630)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(5840,530)" name="AND Gate">
-      <a name="facing" val="south"/>
+    <comp lib="1" loc="(4850,970)" name="AND Gate">
       <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(720,1870)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="label" val="hours_tens_g"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="1" loc="(1260,440)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(3014,339)" name="Text">
-      <a name="text" val="a0"/>
-    </comp>
-    <comp lib="1" loc="(130,250)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2720,570)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="6" loc="(946,1795)" name="Text">
-      <a name="text" val="~a0"/>
     </comp>
     <comp lib="1" loc="(4850,1170)" name="AND Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(3950,110)" name="AND Gate">
+    <comp lib="0" loc="(270,1750)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="alwaysMake1_hours_tens"/>
+    </comp>
+    <comp lib="1" loc="(5210,530)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(960,1930)" name="Pin">
       <a name="facing" val="west"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(6037,281)" name="Text">
-      <a name="text" val="~a3"/>
-    </comp>
-    <comp lib="6" loc="(6033,315)" name="Text">
-      <a name="text" val="~a2"/>
+      <a name="output" val="true"/>
+      <a name="label" val="hours_tens_c"/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(660,650)" name="Pin">
       <a name="output" val="true"/>
       <a name="label" val="minutes_tens_d"/>
       <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="0" loc="(2480,830)" name="Pin">
+    <comp lib="0" loc="(2480,760)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="label" val="minutes_units_b"/>
+      <a name="label" val="minutes_units_a"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(3210,380)" name="XOR Gate">
+    <comp lib="6" loc="(6033,416)" name="Text">
+      <a name="text" val="~a0"/>
+    </comp>
+    <comp lib="1" loc="(1100,1520)" name="AND Gate">
+      <a name="facing" val="south"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(4700,720)" name="NOT Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(2580,2190)" name="OR Gate">
+    <comp lib="1" loc="(1820,480)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="4"/>
     </comp>
-    <comp lib="1" loc="(750,580)" name="OR Gate">
+    <comp lib="0" loc="(1060,540)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="minutes_tens_g"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="1" loc="(5170,310)" name="NOT Gate"/>
+    <comp lib="0" loc="(2480,790)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="minutes_units_c"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(5450,70)" name="AND Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1450,1800)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="6" loc="(3014,339)" name="Text">
+      <a name="text" val="a0"/>
+    </comp>
+    <comp lib="0" loc="(2290,1030)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="minutes_units_f"/>
+    </comp>
+    <comp lib="4" loc="(5080,240)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="1" loc="(3620,320)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(6042,254)" name="Text">
+      <a name="text" val="a3"/>
+    </comp>
+    <comp lib="6" loc="(1929,1705)" name="Text">
+      <a name="text" val="MOD 10 Counter"/>
+    </comp>
+    <comp lib="6" loc="(944,1733)" name="Text">
+      <a name="text" val="a1"/>
+    </comp>
+    <comp lib="0" loc="(4120,540)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="seconds_tens_g"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="1" loc="(2270,590)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(4010,500)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1660,590)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(2720,570)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(720,1750)" name="NOT Gate"/>
+    <comp lib="0" loc="(820,2080)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="hours_tens_d"/>
+    </comp>
+    <comp lib="1" loc="(410,160)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1520,2160)" name="OR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1640,180)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="1" loc="(1920,760)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(5760,530)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(5700,530)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(2160,2450)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="hours_units_c"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(3015,238)" name="Text">
+      <a name="text" val="a2"/>
+    </comp>
+    <comp lib="6" loc="(6034,399)" name="Text">
+      <a name="text" val="a0"/>
+    </comp>
+    <comp lib="0" loc="(5510,800)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="seconds_units_g"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(4060,650)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="seconds_tens_c"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="1" loc="(3800,330)" name="NOT Gate"/>
+    <comp lib="1" loc="(2740,470)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="6" loc="(3022,194)" name="Text">
+      <a name="text" val="a3"/>
+    </comp>
+    <comp lib="1" loc="(4280,500)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2150,350)" name="NOT Gate"/>
+    <comp lib="0" loc="(720,1910)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="hours_tens_b"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="6" loc="(4455,378)" name="Text">
+      <a name="text" val="~a1"/>
+    </comp>
+    <comp lib="1" loc="(1410,2320)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(3900,700)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="seconds_tens_d"/>
+    </comp>
+    <comp lib="6" loc="(3013,295)" name="Text">
+      <a name="text" val="a1"/>
+    </comp>
+    <comp lib="1" loc="(1600,2700)" name="OR Gate"/>
+    <comp lib="1" loc="(1310,210)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(270,250)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="0" loc="(770,680)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="minutes_tens_e"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="4" loc="(390,1730)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="0" loc="(880,2080)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="hours_tens_e"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(2692,1814)" name="Text">
+      <a name="text" val="a3"/>
+    </comp>
+    <comp lib="1" loc="(1680,660)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(5840,530)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(2060,180)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="1" loc="(4850,790)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(100,270)" name="Pin">
+      <a name="label" val="alwaysMake1_minutes_tens"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="1" loc="(1830,850)" name="AND Gate">
+      <a name="inputs" val="2"/>
     </comp>
     <comp lib="1" loc="(5010,220)" name="AND Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="6" loc="(1449,319)" name="Text">
-      <a name="text" val="~a1"/>
+    <comp lib="1" loc="(1710,110)" name="XOR Gate">
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(5740,630)" name="OR Gate">
+    <comp lib="1" loc="(1500,2530)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2250,470)" name="AND Gate">
       <a name="facing" val="south"/>
-      <a name="inputs" val="4"/>
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(2550,2090)" name="AND Gate">
+    <comp lib="0" loc="(5300,1010)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="seconds_units_e"/>
+    </comp>
+    <comp lib="1" loc="(1500,2350)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(5510,1030)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="seconds_units_f"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(90,170)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="4" loc="(3500,310)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="1" loc="(4700,720)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(4454,417)" name="Text">
+      <a name="text" val="~a0"/>
+    </comp>
+    <comp lib="1" loc="(2090,2090)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1590,1720)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1660,1780)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(6037,281)" name="Text">
+      <a name="text" val="~a3"/>
+    </comp>
+    <comp lib="1" loc="(1930,1080)" name="OR Gate"/>
+    <comp lib="1" loc="(750,580)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(1840,2620)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="hours_units_f"/>
+    </comp>
+    <comp lib="1" loc="(2820,470)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1820,1970)" name="NOT Gate"/>
+    <comp lib="1" loc="(780,270)" name="NOT Gate"/>
+    <comp lib="1" loc="(1600,2530)" name="OR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="6" loc="(1523,1451)" name="Text">
+      <a name="text" val="HOURS"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="1" loc="(4940,160)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1390,2080)" name="AND Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(1160,1090)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(2490,2090)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(3770,640)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(4950,1140)" name="OR Gate"/>
+    <comp lib="1" loc="(340,1690)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1120,440)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="2"/>
     </comp>
@@ -2198,116 +2634,25 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="seconds_units_b"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(3800,330)" name="NOT Gate"/>
     <comp lib="0" loc="(850,2080)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="label" val="hours_tens_f"/>
       <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="0" loc="(1840,2620)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="label" val="hours_units_f"/>
+    <comp lib="1" loc="(1820,1870)" name="NOT Gate"/>
+    <comp lib="6" loc="(2684,1959)" name="Text">
+      <a name="text" val="a0"/>
     </comp>
-    <comp lib="1" loc="(5700,530)" name="AND Gate">
+    <comp lib="0" loc="(1840,2560)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="hours_units_e"/>
+    </comp>
+    <comp lib="1" loc="(2190,470)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="0" loc="(2290,870)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="label" val="minutes_units_d"/>
-    </comp>
-    <comp lib="0" loc="(2160,2360)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="hours_units_g"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="4" loc="(2060,180)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
-    <comp lib="0" loc="(5510,1000)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="seconds_units_d"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(2100,1630)" name="AND Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(3940,570)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(780,310)" name="NOT Gate"/>
-    <comp lib="1" loc="(1740,1730)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(3900,610)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="label" val="seconds_tens_b"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="6" loc="(1929,1705)" name="Text">
-      <a name="text" val="MOD 10 Counter"/>
-    </comp>
-    <comp lib="0" loc="(660,600)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="label" val="minutes_tens_a"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="1" loc="(4940,160)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(4280,500)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(4850,1230)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="4" loc="(4800,240)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
-    <comp lib="1" loc="(1500,2350)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2150,350)" name="NOT Gate"/>
-    <comp lib="0" loc="(2480,860)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="minutes_units_g"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(960,1900)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="hours_tens_a"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(4730,170)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2250,470)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(5090,170)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2210,2090)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(2480,470)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(3670,220)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(410,160)" name="XOR Gate">
+    <comp lib="1" loc="(4940,820)" name="OR Gate">
       <a name="inputs" val="2"/>
     </comp>
     <comp lib="1" loc="(1330,2210)" name="NOT Gate">
@@ -2318,161 +2663,196 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="alwaysMake1_hours_units"/>
       <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="1" loc="(4030,180)" name="AND Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="3"/>
+    <comp lib="6" loc="(2687,1841)" name="Text">
+      <a name="text" val="~a3"/>
     </comp>
-    <comp lib="4" loc="(1920,180)" name="D Flip-Flop">
+    <comp lib="1" loc="(1740,1730)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(480,250)" name="D Flip-Flop">
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="1" loc="(1920,2090)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(944,1733)" name="Text">
-      <a name="text" val="a1"/>
-    </comp>
-    <comp lib="6" loc="(2259,85)" name="Text">
-      <a name="text" val="MOD 10 Counter"/>
-    </comp>
-    <comp lib="1" loc="(1860,2090)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(4850,850)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(4590,260)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(4870,220)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2450,570)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(4760,760)" name="NOT Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="4" loc="(4940,240)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
-    <comp lib="6" loc="(283,161)" name="Text">
-      <a name="text" val="MOD 6 Counter"/>
-    </comp>
-    <comp lib="4" loc="(390,1730)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
-    <comp lib="6" loc="(1442,335)" name="Text">
-      <a name="text" val="a0"/>
-    </comp>
-    <comp lib="1" loc="(5640,530)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(1060,540)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="minutes_tens_g"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="1" loc="(340,1690)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(1730,1800)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
-    <comp lib="1" loc="(460,470)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(4680,650)" name="NOT Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="6" loc="(4450,355)" name="Text">
-      <a name="text" val="a1"/>
-    </comp>
-    <comp lib="0" loc="(2160,2420)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="hours_units_a"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(2150,250)" name="NOT Gate"/>
-    <comp lib="1" loc="(1830,850)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(781,1694)" name="Text">
-      <a name="text" val="MOD 3 Counter"/>
-    </comp>
-    <comp lib="1" loc="(5560,530)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(4200,160)" name="AND Gate">
-      <a name="facing" val="west"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(4450,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="changeSeconds"/>
-    </comp>
-    <comp lib="6" loc="(2683,1875)" name="Text">
-      <a name="text" val="~a2"/>
-    </comp>
-    <comp lib="1" loc="(4010,500)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(1444,277)" name="Text">
-      <a name="text" val="~a2"/>
-    </comp>
-    <comp lib="0" loc="(4060,650)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="seconds_tens_c"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="0" loc="(2290,950)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="label" val="minutes_units_e"/>
-    </comp>
-    <comp lib="1" loc="(1360,150)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(5510,800)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="seconds_units_g"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(750,460)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(990,440)" name="OR Gate">
+    <comp lib="1" loc="(3250,240)" name="OR Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="2"/>
     </comp>
     <comp lib="6" loc="(4450,336)" name="Text">
       <a name="text" val="~a2"/>
     </comp>
-    <comp lib="1" loc="(4850,1050)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(3430,220)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(1840,2560)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="label" val="hours_units_e"/>
-    </comp>
-    <comp lib="1" loc="(4220,500)" name="OR Gate">
+    <comp lib="1" loc="(2620,470)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(920,510)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2610,2090)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(5560,530)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="6" loc="(3017,221)" name="Text">
+      <a name="text" val="~a3"/>
+    </comp>
+    <comp lib="6" loc="(3012,316)" name="Text">
+      <a name="text" val="~a1"/>
+    </comp>
+    <comp lib="1" loc="(2150,310)" name="NOT Gate"/>
+    <comp lib="1" loc="(1820,1830)" name="NOT Gate"/>
+    <comp lib="6" loc="(781,1694)" name="Text">
+      <a name="text" val="MOD 3 Counter"/>
+    </comp>
+    <comp lib="0" loc="(3900,610)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="seconds_tens_b"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="4" loc="(1920,180)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="1" loc="(1940,2210)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(990,440)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(4950,970)" name="OR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(650,160)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2480,470)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(960,1550)" name="AND Gate">
+      <a name="facing" val="west"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(780,350)" name="NOT Gate"/>
+    <comp lib="1" loc="(4590,260)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1650,2080)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(4030,180)" name="AND Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(2120,2190)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(1500,2410)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(880,550)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="minutes_tens_b"/>
+      <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="1" loc="(5500,530)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(3950,110)" name="AND Gate">
+      <a name="facing" val="west"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1570,200)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2150,210)" name="NOT Gate"/>
+    <comp lib="1" loc="(1830,790)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(3800,370)" name="NOT Gate"/>
+    <comp lib="1" loc="(5440,530)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1590,1800)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="1" loc="(780,310)" name="NOT Gate"/>
+    <comp lib="1" loc="(4850,1110)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(720,1870)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="hours_tens_g"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="6" loc="(2685,1858)" name="Text">
+      <a name="text" val="a2"/>
+    </comp>
+    <comp lib="1" loc="(520,1740)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1710,670)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(2070,110)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2290,2090)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="4" loc="(4940,240)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="1" loc="(2910,570)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(5900,530)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(4660,240)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="6" loc="(1442,335)" name="Text">
+      <a name="text" val="a0"/>
+    </comp>
+    <comp lib="0" loc="(50,30)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="6" loc="(2683,1976)" name="Text">
+      <a name="text" val="~a0"/>
+    </comp>
+    <comp lib="1" loc="(3940,570)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(4870,220)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(3013,356)" name="Text">
+      <a name="text" val="~a0"/>
+    </comp>
+    <comp lib="4" loc="(3290,310)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="0" loc="(2480,830)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="minutes_units_b"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(952,1773)" name="Text">
+      <a name="text" val="a0"/>
     </comp>
     <comp lib="0" loc="(2160,2390)" name="Pin">
       <a name="facing" val="west"/>
@@ -2480,122 +2860,23 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="hours_units_b"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(4340,500)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(880,550)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="label" val="minutes_tens_b"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1500,2470)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2490,2090)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(650,160)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1380,1730)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(3900,730)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="label" val="seconds_tens_f"/>
-    </comp>
-    <comp lib="6" loc="(952,1773)" name="Text">
-      <a name="text" val="a0"/>
-    </comp>
-    <comp lib="1" loc="(2880,470)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(6033,355)" name="Text">
-      <a name="text" val="a1"/>
-    </comp>
-    <comp lib="1" loc="(1930,1080)" name="OR Gate"/>
-    <comp lib="1" loc="(5170,310)" name="NOT Gate"/>
-    <comp lib="1" loc="(3910,500)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(920,510)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1920,760)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2270,590)" name="OR Gate">
+    <comp lib="1" loc="(2580,2190)" name="OR Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="4"/>
     </comp>
-    <comp lib="1" loc="(2230,1630)" name="AND Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(4730,730)" name="NOT Gate">
+    <comp lib="1" loc="(1380,2290)" name="NOT Gate">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="6" loc="(4454,417)" name="Text">
-      <a name="text" val="~a0"/>
-    </comp>
-    <comp lib="1" loc="(1520,2160)" name="OR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(4950,1140)" name="OR Gate"/>
-    <comp lib="1" loc="(530,1920)" name="AND Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(810,1890)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(4850,910)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2740,470)" name="AND Gate">
-      <a name="facing" val="south"/>
+    <comp lib="1" loc="(4850,1050)" name="AND Gate">
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="1" loc="(1320,440)" name="AND Gate">
+    <comp lib="1" loc="(1050,440)" name="OR Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(3250,240)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(720,1790)" name="NOT Gate"/>
-    <comp lib="1" loc="(90,170)" name="AND Gate">
+    <comp lib="1" loc="(4220,500)" name="OR Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="4" loc="(270,250)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
-    <comp lib="6" loc="(4448,394)" name="Text">
-      <a name="text" val="a0"/>
-    </comp>
-    <comp lib="1" loc="(2290,2090)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(3900,700)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="label" val="seconds_tens_d"/>
-    </comp>
-    <comp lib="1" loc="(1820,480)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="6" loc="(3015,238)" name="Text">
-      <a name="text" val="a2"/>
     </comp>
     <comp lib="0" loc="(4060,600)" name="Pin">
       <a name="facing" val="west"/>
@@ -2603,339 +2884,58 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="seconds_tens_a"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="6" loc="(1523,1451)" name="Text">
-      <a name="text" val="HOURS"/>
-      <a name="font" val="SansSerif plain 18"/>
-    </comp>
-    <comp lib="0" loc="(5510,1030)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="seconds_units_f"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(1390,2080)" name="AND Gate">
+    <comp lib="1" loc="(2150,2090)" name="AND Gate">
       <a name="facing" val="south"/>
+      <a name="inputs" val="3"/>
     </comp>
-    <comp lib="6" loc="(1020,34)" name="Text">
-      <a name="text" val="MINUTES"/>
-      <a name="font" val="SansSerif bold 18"/>
+    <comp lib="1" loc="(4850,850)" name="AND Gate">
+      <a name="inputs" val="3"/>
     </comp>
-    <comp lib="6" loc="(1364,2858)" name="Text">
+    <comp lib="1" loc="(1380,1730)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1810,730)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(4730,170)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(4714,1298)" name="Text">
       <a name="text" val="a0 ~a0 a1 ~a1 a2 ~a2 a3 ~a3"/>
     </comp>
-    <comp lib="1" loc="(3830,480)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1820,1930)" name="NOT Gate"/>
-    <comp lib="4" loc="(480,250)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
-    <comp lib="1" loc="(1820,1830)" name="NOT Gate"/>
-    <comp lib="0" loc="(720,1910)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="label" val="hours_tens_b"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="6" loc="(3013,255)" name="Text">
-      <a name="text" val="~a2"/>
-    </comp>
-    <comp lib="6" loc="(6034,399)" name="Text">
-      <a name="text" val="a0"/>
-    </comp>
-    <comp lib="1" loc="(1820,1870)" name="NOT Gate"/>
-    <comp lib="1" loc="(2190,470)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(1660,590)" name="NOT Gate">
+    <comp lib="1" loc="(4760,760)" name="NOT Gate">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="0" loc="(4350,670)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="seconds_tens_e"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="0" loc="(3120,330)" name="Pin">
-      <a name="label" val="alwaysMake1_seconds_tens"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(4120,540)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="seconds_tens_g"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1380,2290)" name="NOT Gate">
+    <comp lib="1" loc="(1350,2280)" name="NOT Gate">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="6" loc="(1444,253)" name="Text">
-      <a name="text" val="a2"/>
-    </comp>
-    <comp lib="4" loc="(1450,1800)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
-    <comp lib="1" loc="(1310,210)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(780,270)" name="NOT Gate"/>
-    <comp lib="1" loc="(1570,200)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(6033,416)" name="Text">
-      <a name="text" val="~a0"/>
-    </comp>
-    <comp lib="1" loc="(890,440)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(3013,295)" name="Text">
-      <a name="text" val="a1"/>
-    </comp>
-    <comp lib="6" loc="(3012,316)" name="Text">
+    <comp lib="6" loc="(944,1752)" name="Text">
       <a name="text" val="~a1"/>
-    </comp>
-    <comp lib="1" loc="(2940,470)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1710,110)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2910,570)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(2420,470)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(960,1930)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="hours_tens_c"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(770,680)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="label" val="minutes_tens_e"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1920,100)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(5760,530)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(2430,120)" name="AND Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(6035,298)" name="Text">
-      <a name="text" val="a2"/>
-    </comp>
-    <comp lib="1" loc="(2120,2190)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="6" loc="(2685,1858)" name="Text">
-      <a name="text" val="a2"/>
-    </comp>
-    <comp lib="0" loc="(50,30)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="clk"/>
-    </comp>
-    <comp lib="1" loc="(1830,910)" name="AND Gate">
-      <a name="inputs" val="2"/>
     </comp>
     <comp lib="1" loc="(4300,580)" name="OR Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="1" loc="(1930,910)" name="OR Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(3448,146)" name="Text">
-      <a name="text" val="MOD 6 Counter"/>
-    </comp>
-    <comp lib="1" loc="(1740,700)" name="NOT Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(2150,310)" name="NOT Gate"/>
-    <comp lib="1" loc="(940,150)" name="AND Gate">
-      <a name="facing" val="west"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(2480,790)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="minutes_units_c"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="4" loc="(590,1730)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
-    <comp lib="1" loc="(4850,1110)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(1850,160)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1280,520)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(900,700)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="label" val="minutes_tens_f"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="0" loc="(5300,1010)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="label" val="seconds_units_e"/>
-    </comp>
-    <comp lib="1" loc="(720,1750)" name="NOT Gate"/>
     <comp lib="1" loc="(1240,1820)" name="XOR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(5440,530)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(3770,520)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1120,1990)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1590,2380)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1500,2410)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(600,260)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(4316,84)" name="Text">
-      <a name="text" val="SECONDS"/>
-      <a name="font" val="SansSerif bold 18"/>
-    </comp>
-    <comp lib="1" loc="(4840,540)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(4940,820)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1050,440)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2090,2090)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1160,1090)" name="AND Gate">
+    <comp lib="1" loc="(2210,2090)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(4450,312)" name="Text">
-      <a name="text" val="a2"/>
-    </comp>
-    <comp lib="1" loc="(3800,370)" name="NOT Gate"/>
-    <comp lib="6" loc="(2683,1976)" name="Text">
-      <a name="text" val="~a0"/>
     </comp>
     <comp lib="4" loc="(710,250)" name="D Flip-Flop">
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="1" loc="(1810,730)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(1060,1750)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="changeHours"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(2290,1030)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="label" val="minutes_units_f"/>
-    </comp>
-    <comp lib="1" loc="(1100,1520)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1830,790)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(960,1550)" name="AND Gate">
-      <a name="facing" val="west"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(3730,310)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
-    <comp lib="1" loc="(2820,470)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(3022,194)" name="Text">
-      <a name="text" val="a3"/>
-    </comp>
-    <comp lib="1" loc="(2680,470)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(1650,2080)" name="AND Gate">
+    <comp lib="1" loc="(5930,630)" name="OR Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="4"/>
     </comp>
-    <comp lib="1" loc="(2620,470)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(2692,1814)" name="Text">
-      <a name="text" val="a3"/>
-    </comp>
-    <comp lib="6" loc="(3013,356)" name="Text">
-      <a name="text" val="~a0"/>
-    </comp>
-    <comp lib="4" loc="(1590,1800)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
-    <comp lib="0" loc="(1490,220)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="alwaysMake1_minutes_units"/>
-    </comp>
-    <comp lib="1" loc="(1600,2530)" name="OR Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(2390,2190)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(190,320)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(944,1752)" name="Text">
-      <a name="text" val="~a1"/>
-    </comp>
-    <comp lib="1" loc="(810,420)" name="AND Gate">
+    <comp lib="1" loc="(890,440)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(1600,2700)" name="OR Gate"/>
-    <comp lib="1" loc="(5170,270)" name="NOT Gate"/>
-    <comp lib="6" loc="(2683,1915)" name="Text">
-      <a name="text" val="a1"/>
-    </comp>
-    <comp lib="6" loc="(6032,376)" name="Text">
-      <a name="text" val="~a1"/>
+    <comp lib="6" loc="(2683,1875)" name="Text">
+      <a name="text" val="~a2"/>
     </comp>
   </circuit>
   <circuit name="24hrclk">
@@ -2984,6 +2984,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(210,630)" to="(290,630)"/>
     <wire from="(790,340)" to="(860,340)"/>
     <wire from="(810,390)" to="(810,570)"/>
+    <wire from="(300,160)" to="(430,160)"/>
     <wire from="(790,330)" to="(870,330)"/>
     <wire from="(710,190)" to="(720,190)"/>
     <wire from="(960,240)" to="(960,800)"/>
@@ -2998,6 +2999,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(790,370)" to="(830,370)"/>
     <wire from="(840,360)" to="(840,450)"/>
     <wire from="(770,740)" to="(770,760)"/>
+    <wire from="(430,160)" to="(430,190)"/>
     <wire from="(730,470)" to="(730,680)"/>
     <wire from="(610,740)" to="(610,760)"/>
     <wire from="(770,660)" to="(770,680)"/>
@@ -3005,7 +3007,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(540,260)" to="(750,260)"/>
     <wire from="(490,570)" to="(490,680)"/>
     <wire from="(270,640)" to="(270,680)"/>
-    <wire from="(80,160)" to="(100,160)"/>
     <wire from="(790,380)" to="(820,380)"/>
     <wire from="(360,400)" to="(360,770)"/>
     <wire from="(790,400)" to="(800,400)"/>
@@ -3053,7 +3054,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(780,130)" to="(780,160)"/>
     <wire from="(790,190)" to="(1020,190)"/>
     <wire from="(700,190)" to="(700,360)"/>
-    <wire from="(150,160)" to="(180,160)"/>
     <wire from="(450,450)" to="(450,680)"/>
     <wire from="(790,650)" to="(790,760)"/>
     <wire from="(730,190)" to="(750,190)"/>
@@ -3084,7 +3084,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(440,750)" to="(460,750)"/>
     <wire from="(400,580)" to="(400,750)"/>
     <wire from="(580,240)" to="(580,680)"/>
-    <wire from="(150,110)" to="(150,160)"/>
+    <wire from="(100,160)" to="(180,160)"/>
     <wire from="(620,740)" to="(620,800)"/>
     <wire from="(350,420)" to="(750,420)"/>
     <wire from="(470,440)" to="(470,680)"/>
@@ -3120,7 +3120,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(750,790)" to="(870,790)"/>
     <wire from="(700,360)" to="(750,360)"/>
     <wire from="(440,740)" to="(440,750)"/>
-    <wire from="(100,160)" to="(150,160)"/>
     <wire from="(710,220)" to="(750,220)"/>
     <wire from="(500,590)" to="(800,590)"/>
     <wire from="(780,130)" to="(820,130)"/>
@@ -3129,7 +3128,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(650,310)" to="(750,310)"/>
     <wire from="(640,370)" to="(750,370)"/>
     <wire from="(500,590)" to="(500,680)"/>
-    <wire from="(390,140)" to="(430,140)"/>
     <wire from="(950,250)" to="(950,550)"/>
     <wire from="(790,200)" to="(1000,200)"/>
     <wire from="(760,740)" to="(760,780)"/>
@@ -3150,9 +3148,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(910,290)" to="(910,620)"/>
     <wire from="(310,740)" to="(310,750)"/>
     <wire from="(820,380)" to="(820,600)"/>
+    <wire from="(430,140)" to="(430,160)"/>
     <wire from="(470,740)" to="(470,770)"/>
     <wire from="(790,240)" to="(960,240)"/>
-    <wire from="(150,110)" to="(190,110)"/>
     <wire from="(640,180)" to="(750,180)"/>
     <wire from="(220,740)" to="(260,740)"/>
     <wire from="(620,520)" to="(920,520)"/>
@@ -3170,41 +3168,32 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(790,250)" to="(950,250)"/>
     <wire from="(790,280)" to="(920,280)"/>
     <wire from="(190,640)" to="(270,640)"/>
-    <wire from="(430,140)" to="(430,190)"/>
     <wire from="(170,320)" to="(180,320)"/>
+    <wire from="(90,160)" to="(100,160)"/>
     <wire from="(790,270)" to="(930,270)"/>
-    <comp lib="5" loc="(630,170)" name="Button">
-      <a name="label" val="Click to change minutes"/>
-      <a name="labelloc" val="west"/>
-    </comp>
+    <comp lib="5" loc="(700,680)" name="7-Segment Display"/>
+    <comp lib="5" loc="(310,680)" name="7-Segment Display"/>
+    <comp lib="5" loc="(260,680)" name="7-Segment Display"/>
+    <comp lib="5" loc="(560,680)" name="7-Segment Display"/>
+    <comp lib="5" loc="(610,680)" name="7-Segment Display"/>
+    <comp loc="(790,190)" name="main"/>
+    <comp lib="5" loc="(470,680)" name="7-Segment Display"/>
+    <comp lib="0" loc="(690,160)" name="Clock"/>
     <comp lib="5" loc="(820,130)" name="Button">
       <a name="facing" val="west"/>
       <a name="label" val="Click to change seconds"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="5" loc="(420,680)" name="7-Segment Display"/>
-    <comp lib="5" loc="(470,680)" name="7-Segment Display"/>
-    <comp lib="5" loc="(310,680)" name="7-Segment Display"/>
-    <comp lib="0" loc="(390,140)" name="Pin">
-      <a name="tristate" val="false"/>
+    <comp lib="5" loc="(630,170)" name="Button">
+      <a name="label" val="Click to change minutes"/>
+      <a name="labelloc" val="west"/>
     </comp>
-    <comp lib="0" loc="(80,160)" name="Pin">
+    <comp lib="0" loc="(90,160)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="alwaysMake1_HRDisplay"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="0" loc="(190,110)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="HRD"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="5" loc="(610,680)" name="7-Segment Display"/>
-    <comp lib="5" loc="(560,680)" name="7-Segment Display"/>
-    <comp lib="5" loc="(700,680)" name="7-Segment Display"/>
+    <comp lib="5" loc="(420,680)" name="7-Segment Display"/>
     <comp lib="5" loc="(750,680)" name="7-Segment Display"/>
-    <comp lib="5" loc="(260,680)" name="7-Segment Display"/>
-    <comp lib="0" loc="(690,160)" name="Clock"/>
-    <comp loc="(790,190)" name="main"/>
   </circuit>
 </project>
